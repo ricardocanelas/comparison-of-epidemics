@@ -41,29 +41,24 @@ const Home = () => {
 
       <footer>
         <div>
-          <a
-            href="https://github.com/ricardocanelas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Developed by Ricardo Canelas
+          {`Developed by `}
+          <a href="https://github.com/ricardocanelas" target="_blank" rel="noopener noreferrer">
+            Ricardo Canelas
           </a>
-          <a
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by Next.js
+          {` & Powered by `}
+          <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+            Next.js
           </a>
-      <br/>
-      <a
-          href="https://www.youtube.com/watch?v=n4no04822NQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-            Data sources: Abacaba
+          <br />
+          {`Data sources: `}
+          <a href="https://www.youtube.com/watch?v=n4no04822NQ" target="_blank" rel="noopener noreferrer">
+            Abacaba
           </a>
-          </div>
+          {` and `}
+          <a href="https://github.com/novelcovid/api" target="_blank" rel="noopener noreferrer">
+            NovelCovid Api
+          </a>
+        </div>
       </footer>
 
       <style jsx>{`
@@ -105,17 +100,12 @@ const Home = () => {
         justify-content: center;
         align-items: center;
         font-size: 12px;
-      }
-
-      footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
       }
 
       a {
         color: inherit;
-        text-decoration: none;
+        text-decoration: underline;
       }
     `}</style>
 
