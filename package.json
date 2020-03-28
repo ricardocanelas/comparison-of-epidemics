@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nivo/api": "^0.61.2",
+    "@nivo/line": "^0.61.1",
     "next": "9.3.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
