@@ -40,13 +40,30 @@ const Home = () => {
       </main>
 
       <footer>
-        <a
-          href="https://github.com/ricardocanelas"
+        <div>
+          <a
+            href="https://github.com/ricardocanelas"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Developed by Ricardo Canelas
+          </a>
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by Next.js
+          </a>
+      <br/>
+      <a
+          href="https://www.youtube.com/watch?v=n4no04822NQ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Ricardo Canelas
-      </a>
+            Data sources: Abacaba
+          </a>
+          </div>
       </footer>
 
       <style jsx>{`
@@ -87,6 +104,7 @@ const Home = () => {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 12px;
       }
 
       footer a {
