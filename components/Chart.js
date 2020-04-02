@@ -6,11 +6,11 @@ import { Line, ResponsiveLine } from '@nivo/line'
 const Chart = ({ data }) => {
 
   const commonProperties = {
-    width: 1000,
+    width: 700,
     height: 500,
-    margin: { top: 40, right: 70, bottom: 50, left: 80 },
+    margin: { top: 40, right: 100, bottom: 50, left: 100 },
     data,
-    animate: true,
+    animate: false,
     enableSlices: 'x',
     enablePoints: false,
     enableGridY: true,

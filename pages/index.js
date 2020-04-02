@@ -68,7 +68,8 @@ const Home = () => {
       .d1 {
         display: block;
         background-color: #f9f9f9;
-        width: 1050px;
+        width: 100%;
+        max-width: 700px;
         height: 540px;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -81,6 +82,12 @@ const Home = () => {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          padding-left: 240px
+        }
       }
 
       main {
